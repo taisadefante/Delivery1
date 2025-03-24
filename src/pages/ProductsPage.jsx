@@ -56,7 +56,7 @@ export default function ProductsPage({ addProductToCart }) {
           justifyContent: "center",
           borderBottom: "1px solid #442020",
           boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
-          marginTop: "30px",
+          marginTop: "10px",
         }}
       >
         {categoriasOrdenadas.map((category) => {
