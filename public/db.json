@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pizza Mussarella",
+      "description": "Pizza clássica com muito queijo mussarella derretido.",
+      "image": "images/product-1.jpg",
+      "rating": 5,
+      "price": 50,
+      "category": "Pizzas"
+    },
+    {
+      "id": 2,
+      "name": "Pizza Calabresa com Queijo",
+      "description": "Calabresa fatiada, cebola e muito queijo mussarella.",
+      "image": "images/product-2.jpg",
+      "rating": 5,
+      "price": 50,
+      "category": "Pizzas"
+    },
+    {
+      "id": 3,
+      "name": "X-Burguer",
+      "description": "Pão, hambúrguer bovino, queijo, alface, tomate e maionese.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 18,
+      "category": "Lanches"
+    },
+    {
+      "id": 4,
+      "name": "X-Bacon",
+      "description": "Hambúrguer com queijo, bacon crocante, salada e molho especial.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 22,
+      "category": "Lanches"
+    },
+    {
+      "id": 5,
+      "name": "Refrigerante Lata",
+      "description": "Lata 350ml - Coca-Cola, Guaraná, Fanta ou Pepsi.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 6,
+      "category": "Bebidas"
+    },
+    {
+      "id": 6,
+      "name": "Suco Natural 300ml",
+      "description": "Suco de laranja ou abacaxi 100% natural.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 8,
+      "category": "Bebidas"
+    },
+    {
+      "id": 7,
+      "name": "Porção de Fritas Média",
+      "description": "Batata frita crocante com sal e orégano.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 12,
+      "category": "Petisco"
+    },
+    {
+      "id": 8,
+      "name": "Porção de Mandioca",
+      "description": "Mandioca frita crocante por fora e macia por dentro.",
+      "image": "images/sem-imagem.jpg",
+      "rating": 5,
+      "price": 13,
+      "category": "Petisco"
+    },
+    {
+      "id": 9,
+      "name": "Açaí Tradicional 300ml",
+      "description": "Açaí com granola, banana e leite condensado.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 15,
+      "category": "Sobremesas"
+    },
+    {
+      "id": 10,
+      "name": "Milkshake Chocolate",
+      "description": "Milkshake cremoso de chocolate 300ml.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 14,
+      "category": "Sobremesas"
+    },
+    {
+      "id": 11,
+      "name": "X-Tudo",
+      "description": "Hambúrguer, queijo, presunto, ovo, bacon, salada e batata palha.",
+      "image": "images/sem-imagem.jpg",
+      "rating": 5,
+      "price": 28,
+      "category": "Lanches"
+    },
+    {
+      "id": 12,
+      "name": "Água Mineral",
+      "description": "Garrafa de 500ml com ou sem gás.",
+      "image": "images/semimagem.png",
+      "rating": 5,
+      "price": 4,
+      "category": "Bebidas"
+    }
+  ]
+}

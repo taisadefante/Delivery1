@@ -1,0 +1,139 @@
+.nav {
+  background-color: #252525;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 8px #ebebeb60;
+  z-index: 9999;
+}
+
+.nav .inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: red;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  transform: translateY(-3px);
+  font-weight: bold;
+}
+
+.navs-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navs-icon-container svg {
+  height: 1.5rem;
+  color: #ddd;
+}
+
+.navs-icon-container .cart {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navs-icon-container .cart .products-count {
+  position: absolute;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  top: -8px;
+  right: -8px;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 920px) {
+  .nav h1 {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #252525;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  nav ul li {
+    padding: 0.8rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 580px) {
+  .search-input-container {
+    display: none;
+  }
+}
